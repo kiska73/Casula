@@ -21,13 +21,13 @@ SYMBOL = 'SOL/USDT:USDT'  # Corrected USDT perpetual symbol for SOL
 TIMEFRAME = '30m'
 EXPOSURE_MULTIPLIER = 3  # Multiplier sul saldo totale per esposizione notionale (es. 2.5x = 250% del saldo)
 SLACK = 1.0
-DIST_MIN = 0.0
+DIST_MIN = 0.02
 STOCH_LENGTH = 30
 SMOOTH_K = 27
 SMOOTH_D = 26
 EMA_LENGTH = 20
 USE_EMA_FILTER = True
-TP_PERCENT = 2  # Take Profit percentage
+TP_PERCENT = 2.1  # Take Profit percentage
 RSI_LENGTH = 30  # Hardcoded since no filter
 
 # Initialize exchange
