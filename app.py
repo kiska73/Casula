@@ -32,8 +32,8 @@ RSI_LENGTH = 30  # Hardcoded since no filter
 
 # Initialize exchange
 exchange = ccxt.bybit({
-    'apiKey': 'JWK8qGoHQnBUB7EU0M',  # Replace with your API key
-    'secret': 'lFOzErJbHf3bs5uneFXDhDPKQYuUyxbn0VMX',   # Replace with your secret
+    'apiKey': '................',  # Replace with your API key
+    'secret': '..................',   # Replace with your secret
     'sandbox': False,          # Set to True for testnet
     'enableRateLimit': True,
     'options': {
